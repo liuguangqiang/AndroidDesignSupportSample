@@ -2,11 +2,27 @@ Android Support Design Sample
 ==================
 A sample that use Android Support Design Library.
 
-##Screenshots
+## New Widgets
+
+* NavigationView
+* TabLayout
+* CoordinatorLayout
+* AppBarLayout
+* CollapsingToolbarLayout
+* FloatingActionButton
+* Snackbar
+* NestedScrollView
+
+## Required Dependencies
+
+* appcompat-v7:22.2.0
+* recyclerview-v7:22.2.0 
+
+## Screenshots
 
 ![image](art/nav.gif)
 
-![image](art/snackbar.gif)
+![image](art/snackbar.gif) 
 
 ![image](art/recyclerview.gif)
 
