@@ -1,6 +1,6 @@
-Android Support Design Sample
+Android Design Support Sample
 ==================
-A sample that use [Android Support Design Library](http://android-developers.blogspot.com/2015/05/android-design-support-library.html).
+A sample that use [Android Design Support Library](http://android-developers.blogspot.com/2015/05/android-design-support-library.html).
 
 ## New Widgets
 
