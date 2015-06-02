@@ -1,17 +1,17 @@
 Android Support Design Sample
 ==================
-A sample that use Android Support Design Library.
+A sample that use [Android Support Design Library](http://android-developers.blogspot.com/2015/05/android-design-support-library.html).
 
 ## New Widgets
 
-* NavigationView
-* TabLayout
-* CoordinatorLayout
-* AppBarLayout
-* CollapsingToolbarLayout
-* FloatingActionButton
-* Snackbar
-* NestedScrollView
+* [NavigationView](http://developer.android.com/intl/zh-cn/reference/android/support/design/widget/NavigationView.html?utm_campaign=io15&utm_source=dac&utm_medium=blog)
+* [TabLayout](http://developer.android.com/intl/zh-cn/reference/android/support/design/widget/TabLayout.html?utm_campaign=io15&utm_source=dac&utm_medium=blog)
+* [CoordinatorLayout](http://developer.android.com/intl/zh-cn/reference/android/support/design/widget/CoordinatorLayout.html?utm_campaign=io15&utm_source=dac&utm_medium=blog)
+* [AppBarLayout](https://developer.android.com/intl/zh-cn/reference/android/support/design/widget/AppBarLayout.html)
+* [CollapsingToolbarLayout](http://developer.android.com/intl/zh-cn/reference/android/support/design/widget/CollapsingToolbarLayout.html?utm_campaign=io15&utm_source=dac&utm_medium=blog)
+* [FloatingActionButton](http://developer.android.com/intl/zh-cn/reference/android/support/design/widget/FloatingActionButton.html?utm_campaign=io15&utm_source=dac&utm_medium=blog)
+* [Snackbar](https://developer.android.com/intl/zh-cn/reference/android/support/design/widget/Snackbar.html)
+* [NestedScrollView](https://developer.android.com/intl/zh-cn/reference/android/support/v4/widget/NestedScrollView.html)
 
 ## Required Dependencies
 
