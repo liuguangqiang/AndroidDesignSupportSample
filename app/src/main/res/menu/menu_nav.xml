@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/navi_item_1"
+            android:icon="@mipmap/ic_dashboard_white_48dp"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/navi_item_2"
+            android:icon="@mipmap/ic_favorite_border_white_48dp"
+            android:title="Favorite" />
+
+        <item
+            android:id="@+id/navi_item_3"
+            android:icon="@mipmap/ic_card_travel_white_48dp"
+            android:title="Card Travel" />
+
+    </group>
+
+    <item android:title="Shopping">
+
+        <menu>
+            <item
+                android:id="@+id/navi_item_4"
+                android:icon="@mipmap/ic_shopping_cart_white_48dp"
+                android:title="Shopping Cart" />
+
+            <item
+                android:id="@+id/navi_item_5"
+                android:icon="@mipmap/ic_payment_white_48dp"
+                android:title="Payment" />
+        </menu>
+
+    </item>
+
+</menu>
