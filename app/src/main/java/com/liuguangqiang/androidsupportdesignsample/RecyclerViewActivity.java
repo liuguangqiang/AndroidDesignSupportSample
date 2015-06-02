@@ -51,7 +51,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle("Product");
+        collapsingToolbar.setTitle("RecyclerViewActivity");
     }
 
     private void initData() {

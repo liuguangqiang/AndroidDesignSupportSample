@@ -4,11 +4,16 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">#4886f3</item>
         <item name="colorPrimaryDark">#4179da</item>
+        <item name="colorAccent">#4179da</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
     </style>
 
     <style name="AppTheme.Detail" parent="AppTheme">
         <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="ItemSelectedBackground">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
     </style>
 
 </resources>

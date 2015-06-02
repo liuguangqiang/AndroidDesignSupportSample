@@ -8,4 +8,8 @@
 
     <style name="AppTheme.Detail" parent="AppTheme"></style>
 
+    <style name="ItemSelectedBackground">
+        <item name="android:background">@drawable/selected_background</item>
+    </style>
+
 </resources>
