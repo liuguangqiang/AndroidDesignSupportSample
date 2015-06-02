@@ -6,10 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.design.widget.CoordinatorLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+        android:layout_height="match_parent">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -22,8 +21,7 @@
             android:id="@+id/rv_sample"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="?attr/actionBarSize"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            android:layout_below="@+id/toolbar" />
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/floating_btn"
@@ -31,13 +29,12 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_gravity="bottom|end"
             android:layout_margin="16dp"
             android:src="@mipmap/ic_add_white_24dp"
             app:backgroundTint="@color/main_color"
             app:rippleColor="@android:color/darker_gray" />
 
-    </android.support.design.widget.CoordinatorLayout>
+    </RelativeLayout>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation"
