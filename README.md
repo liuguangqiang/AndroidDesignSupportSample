@@ -19,6 +19,9 @@ A sample that use [Android Design Support Library](http://android-developers.blo
 * appcompat-v7:22.2.0
 * recyclerview-v7:22.2.0 
 
+## [Sample Download](https://raw.githubusercontent.com/liuguangqiang/AndroidDesignSupportSample/master/app/app-release.apk)
+![Image](art/download.png)
+
 ## Screenshots
 
 ![image](art/nav.gif)
