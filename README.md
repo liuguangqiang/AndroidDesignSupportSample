@@ -29,6 +29,8 @@ A sample that use [Android Design Support Library](http://android-developers.blo
 
 ![image](art/scrollview.gif)
 
+![image](art/textinputlayout.gif)
+
 ## License
 
     Copyright 2015 Eric Liu
