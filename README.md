@@ -12,6 +12,7 @@ A sample that use [Android Design Support Library](http://android-developers.blo
 * [FloatingActionButton](http://developer.android.com/intl/zh-cn/reference/android/support/design/widget/FloatingActionButton.html?utm_campaign=io15&utm_source=dac&utm_medium=blog)
 * [Snackbar](https://developer.android.com/intl/zh-cn/reference/android/support/design/widget/Snackbar.html)
 * [NestedScrollView](https://developer.android.com/intl/zh-cn/reference/android/support/v4/widget/NestedScrollView.html)
+* [TextInputLayout](https://developer.android.com/intl/zh-cn/reference/android/support/design/widget/TextInputLayout.html)
 
 ## Required Dependencies
 
