@@ -89,6 +89,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case 1:
                 startActivity(new Intent(getApplicationContext(), ScrollViewActivity.class));
                 break;
+            case 2:
+                startActivity(new Intent(getApplicationContext(), TextInputLayoutActivity.class));
+                break;
         }
     }
 

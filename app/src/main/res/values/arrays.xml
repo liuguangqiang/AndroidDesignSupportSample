@@ -3,8 +3,8 @@
 
     <array name="samples">
         <item>CoordinatorLayout with RecyclerView</item>
-
         <item>CoordinatorLayout with NestedScrollView</item>
+        <item>TextInputLayout</item>
     </array>
 
 </resources>
