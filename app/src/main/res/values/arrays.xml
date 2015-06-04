@@ -5,6 +5,7 @@
         <item>CoordinatorLayout with RecyclerView</item>
         <item>CoordinatorLayout with NestedScrollView</item>
         <item>TextInputLayout</item>
+        <item>DataBinding</item>
     </array>
 
 </resources>

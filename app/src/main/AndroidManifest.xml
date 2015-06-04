@@ -27,6 +27,8 @@
 
         <activity android:name=".TextInputLayoutActivity" />
 
+        <activity android:name=".DataBindingActivity" />
+
     </application>
 
 </manifest>

@@ -92,6 +92,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case 2:
                 startActivity(new Intent(getApplicationContext(), TextInputLayoutActivity.class));
                 break;
+            case 3:
+                startActivity(new Intent(getApplicationContext(), DataBindingActivity.class));
+                break;
         }
     }
 
