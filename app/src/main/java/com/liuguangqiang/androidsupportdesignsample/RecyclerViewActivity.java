@@ -6,10 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 
 import com.liuguangqiang.androidsupportdesignsample.adapter.ProductAdapter;
 import com.liuguangqiang.androidsupportdesignsample.entity.Product;
+import com.liuguangqiang.androidsupportdesignsample.view.LinearRecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +25,7 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
     private ProductAdapter adapter;
 
-    private RecyclerView recyclerView;
+    private LinearRecyclerView recyclerView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,9 +67,19 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
     private void initViews() {
         adapter = new ProductAdapter(getApplicationContext(), data);
-        recyclerView = (RecyclerView) findViewById(R.id.rv_product);
-        recyclerView.setLayoutManager(new LinearLayoutManager(recyclerView.getContext()));
+        recyclerView = (LinearRecyclerView) findViewById(R.id.rv_product);
         recyclerView.setAdapter(adapter);
+        recyclerView.setOnScrollPositionListener(new LinearRecyclerView.OnScrollPositionListener() {
+            @Override
+            public void onScrollToTop() {
+                Log.i("LinearRecyclerView", "at top");
+            }
+
+            @Override
+            public void onScrollToBottom() {
+                Log.i("LinearRecyclerView", "at bottom");
+            }
+        });
     }
 
 }

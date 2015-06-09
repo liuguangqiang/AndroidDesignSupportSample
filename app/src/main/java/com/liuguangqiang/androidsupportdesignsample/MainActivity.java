@@ -1,6 +1,7 @@
 package com.liuguangqiang.androidsupportdesignsample;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -13,11 +14,13 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.liuguangqiang.androidsupportdesignsample.adapter.BaseRecyclerAdapter;
 import com.liuguangqiang.androidsupportdesignsample.adapter.SampleAdapter;
 import com.liuguangqiang.androidsupportdesignsample.entity.Sample;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +41,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         initViews();
         initToolbar();
+
+        ImageView iv = new ImageView(getApplicationContext());
+        Picasso.with(getApplicationContext()).load("").into(iv);
     }
 
     private void initToolbar() {

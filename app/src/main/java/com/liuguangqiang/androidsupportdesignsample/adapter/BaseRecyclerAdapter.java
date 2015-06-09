@@ -12,8 +12,7 @@ import java.util.List;
 /**
  * Created by Eric on 15/3/19.
  */
-public class BaseRecyclerAdapter<T, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
-
+public abstract class BaseRecyclerAdapter<T, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> {
 
     public Context mContext;
     public List<T> data = new ArrayList<>();
